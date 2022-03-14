@@ -1,0 +1,53 @@
+\documentclass{beamer}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage[ENG]{aaltobeamer/aaltologo}
+
+% select Beamer folder
+% \makeatletter
+%   \def\beamer@calltheme#1#2#3{%
+%     \def\beamer@themelist{#2}
+%     \@for\beamer@themename:=\beamer@themelist\do
+%     {\usepackage[{#1}]{\beamer@themelocation/#3\beamer@themename}}}
+
+%   \def\usefolder#1{
+%     \def\beamer@themelocation{#1}
+%   }
+%   \def\beamer@themelocation{}
+
+% \usefolder{aaltobeamer}
+\usetheme[invariant]{Aalto}
+
+\title{Aalto slides with Beamer}
+\author{Ville Klar}
+\date{\today}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Overview}
+    \tableofcontents
+\end{frame}
+
+\section{First section}
+\subsection{First subsection}
+\subsubsection{First subsubsection}
+\begin{frame}{Slide 1}   
+    \blindtext
+\end{frame}              
+
+\section{Second section}
+\subsection{Second subsection}
+\begin{frame}{Slide 2}   
+    \begin{figure}
+    \includegraphics[height=4cm]{example-image-b}
+    \caption{Example image b}
+    \end{figure}
+ \end{frame}              
+
+\section{Third section}
+\begin{frame}{Slide 3}   
+    \huge{\textbf{Beamer} is great for presentations}
+\end{frame}              
+
+\end{document}

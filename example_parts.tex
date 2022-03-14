@@ -1,0 +1,47 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\usepackage[SCI]{aaltologo}
+\usetheme[invariant]{Aalto}
+
+\title{Aalto slides with Beamer}
+\author{Ville Klar}
+\date{\today}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Overview}
+    \tableofcontents[part=1]
+    \tableofcontents[part=2]
+    \tableofcontents[part=3]
+\end{frame}
+
+\part{Part One}
+\begin{frame}{Overview of Part One}\tableofcontents\end{frame}
+\section{First section}
+\begin{frame}{Slide 1}   
+    \blindtext
+\end{frame}              
+\subsection{First subsection}
+\subsubsection{First subsubsection}
+
+\part{Part Two}
+\begin{frame}{Overview of Part Two}\tableofcontents\end{frame}
+\section{Second section}
+\subsection{Second subsection}
+\begin{frame}{Slide 2}   
+    \begin{figure}
+        \includegraphics[height=4cm]{example-image-b}
+        \caption{Example image b}
+    \end{figure}
+\end{frame}              
+
+\part{Part Three}
+\begin{frame}{Overview of Part Three}\tableofcontents\end{frame}
+\section{Third section}
+\begin{frame}{Slide 3}   
+    \huge{\textbf{Beamer} is great for presentations}
+\end{frame}              
+
+\end{document}
