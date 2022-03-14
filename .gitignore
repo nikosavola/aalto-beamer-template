@@ -1,0 +1,17 @@
+# LaTeX files
+*.aux
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.toc
+*.xdv
+*.nav
+*.out
+*.snm
+*.synctex*
+*.tex.bak
+
+*.pdf

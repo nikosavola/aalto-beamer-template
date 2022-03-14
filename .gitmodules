@@ -1,0 +1,6 @@
+[submodule "aaltologo"]
+	path = aaltologo
+	url = git@version.aalto.fi:latex/aaltologo.git
+[submodule "aaltobeamer"]
+	path = aaltobeamer
+	url = git@version.aalto.fi:latex/aaltobeamer.git
